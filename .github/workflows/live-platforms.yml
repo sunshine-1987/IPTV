@@ -20,10 +20,10 @@ jobs:
         run: |
           set +e
           M3U_URLS=(
-            "https://sub.ottiptv.cc/huyayqk.m3u"
-            "https://sub.ottiptv.cc/douyuyqk.m3u"
-            "https://sub.ottiptv.cc/bililive.m3u"
-            "https://sub.ottiptv.cc/yylunbo.m3u"
+            ""
+            ""
+            ""
+            ""
           )
           download() {
             local url=$1 out=$2 tmp=${out}.tmp attempt=1
